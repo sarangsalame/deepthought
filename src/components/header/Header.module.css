@@ -1,0 +1,49 @@
+header{
+    background-color: #F0F0F0;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0  50px;
+}
+
+.header__main-logo{
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.header__main-logo .mainlogo{
+width: 35px;
+height: 35px;
+}
+.header__nav{
+    cursor: pointer;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header__nav svg{
+   background: #3683F0;
+   border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   color: #F0F0F0;
+   padding: 5px;
+   
+}
+.nav__avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#ffffff ;
+}
+.threedot_back{
+    background: #F0F0F0 !important;
+    color: #3683F0 !important;
+}

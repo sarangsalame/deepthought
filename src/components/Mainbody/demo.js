@@ -1,0 +1,1 @@
+console.log(JSON.parse([{"asset_description": "Story of Alignment\r\nScope of Agility\r\nSpecific Accountable \r\nStaggering Approach\r\n\r\n"}]))

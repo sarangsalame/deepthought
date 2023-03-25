@@ -1,0 +1,140 @@
+.center__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card__wrapper{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thread__header{
+    background: #feffc04a;
+    display: flex;
+    align-items: center;
+
+}
+.thread__header span svg{
+    margin-left: 0.5rem;
+    margin-right: 4rem;
+}
+.thread__header h2{
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.thread__content{   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    height: 127px;
+}
+.thread__content-subwrapper{
+    width: 200px;
+    position: relative;
+}
+.thread__content-first{
+    width: 100%;
+    height: 65px;
+    padding: 3px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.thread__content-subwrapper input, .thread__inp-width > input{
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    height: 65px;
+    padding: 0 5px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.thread__btns-wrapperparent{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.thread__btns-wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+.thread__btns-wrapper > svg{
+    width: 20px;
+    height: 20px;
+    margin: 0 0.4rem;
+    color: #323232;
+}
+.btn__wrapper{
+    
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn__wrapper button{
+    width: 90px;
+    height: 32px;
+    border: none;
+    font-weight: 700;
+    background: white;
+    border-radius: 10px;
+    color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.btn__wrapper button svg{
+    font-weight: 700; 
+}
+.thread__content-subwrapper-parent{
+    
+    margin: 2rem 1rem ;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.thread__content-subwrapper-parent > button{
+    height: 36px;
+    width: 97x;
+     background: #0029FF;
+    color: white;
+    font-size: 12px; 
+    padding: 0 10px;
+    border: none;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.thread__inp-width{
+    width: 100% !important;
+    position: relative;
+}
+.thread__inp-width input {
+    height: 75px;
+}
+

@@ -1,0 +1,55 @@
+/* #F2F2F2 */
+.card__four-content{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro__header-wrapper{
+   
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.intro__header{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #F2F2F2;
+    
+}
+.intro__header span svg{
+margin-left:1rem ;
+}
+.intro__header > h2{
+    margin-left:1rem ;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.blank__content{
+    position: relative;
+    height: 75px;
+    margin: 0.5rem;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.blank__content span{
+    position: absolute;
+    right: 0;
+    bottom: 0.3rem;
+    
+}
+.intro__header-wrapper:last-child{
+    margin-left: 2rem;
+    width: calc(90% - 2rem);
+}
